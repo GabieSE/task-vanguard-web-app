@@ -1,0 +1,53 @@
+.landing-page {
+  background-image: url('https://i.pinimg.com/736x/bd/ac/32/bdac327b05ddaa05216dfa08c9e734c3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.landing-page h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.landing-page p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.get-started-btn {
+  background: linear-gradient(45deg, #6ab1d7, #004a7c);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.get-started-btn:hover {
+  background: linear-gradient(45deg, #004a7c, #6ab1d7);
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  filter: brightness(0) invert(1);
+}
