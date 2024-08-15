@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+  background: url('https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+/* Header */
+.App-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff; /* White for contrast */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main Container */
+/* Main Container */
+/* Main Container */
+.todo-wrapper {
+  background: #0d1b2a; /* Deep dark blue background */
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 4px 8px rgba(0, 102, 204, 0.3); /* Soft blue shadow */
+  border-radius: 8px;
+  color: #fff; /* White text */
+}
+
+/* Input Section */
+.todo-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.todo-input-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.todo-input-item label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+}
+
+.todo-input-item input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+  background: #333; /* Dark background for input fields */
+  color: #fff; /* White text */
+}
+
+.todo-input-item input:focus {
+  outline: 2px solid #00e676;
+}
+
+/* Buttons */
+.primaryBtn {
+  background: linear-gradient(135deg, #00e676, #009688);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 80px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.primaryBtn:hover {
+  background: linear-gradient(135deg, #00c853, #00796b);
+}
+
+.secondaryBtn {
+  background: linear-gradient(135deg, #757575, #616161);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 25px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.secondaryBtn.active {
+  background: linear-gradient(135deg, #00e676, #009688);
+}
+
+/* To-Do List */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list-item {
+  background: #333; /* Dark background */
+  color: #fff; /* White text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 102, 204, 0.2); /* Soft blue shadow */
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-list-item:hover {
+  background-color: #444; /* Slightly lighter gray */
+}
+
+.todo-list-item h3 {
+  font-size: 1.8rem;
+  color: #fff; /* White text */
+  margin: 0;
+}
+
+.todo-list-item p {
+  font-size: 1rem;
+  color: #ccc; /* Light gray */
+  margin-top: 5px;
+}
+
+/* Icons */
+.icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ff5252;
+}
+
+.check-icon {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  color: #00e676;
+  cursor: pointer;
+}
+
+.check-icon:hover {
+  color: #00c853;
+}
+
+/* Edit Section */
+.edit__wrapper {
+  background: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+.edit__wrapper input,
+.edit__wrapper textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  background: #333; /* Dark background */
+  color: #fff; /* White text */
+}
+
+.edit__wrapper .primaryBtn {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 1rem;
+  width: fit-content;
+  font-family: 'Roboto', sans-serif;
+}
