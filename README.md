@@ -11,6 +11,7 @@ TaskVanguard is a front-end web application developed as part of the Webstack Po
 - **Task Management:** Add, view, and delete tasks.
 - **Responsive Design:** Optimized for various screen sizes.
 - **User Navigation:** Navigate between the home page and the to-do list page.
+- **Mock API Integration:** Utilizes Mocky.io to simulate backend interactions for task management.
 
 ## Technologies Used
 
@@ -20,6 +21,16 @@ TaskVanguard is a front-end web application developed as part of the Webstack Po
   - CSS3
 - **Styling:**
   - Custom CSS for responsive and aesthetic design
+- **Mock API:**
+  - **Mocky.io**: 
+    - **Purpose**: Used to simulate backend interactions during development.
+    - **Base URL**: `https://run.mocky.io/v3/8d9f8795-2320-4cc6-acd9-d27b8e17f4b9`
+    - **Endpoints**:
+      - **Fetch Todos**: `GET` request to retrieve initial todo items.
+      - **Add Todo**: `POST` request to add new todo items.
+    - **Benefits**:
+      - Rapid setup and flexibility.
+      - Enables front-end development and testing without a live backend.
 
 ## Installation
 
@@ -28,50 +39,3 @@ To get a local copy up and running, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/GabieSE/task-vanguard-web-app.git
-
-   Navigate to the project directory:
-
-bash
-Copy code
-cd task-vanguard-web-app
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-The app will be available at http://localhost:3000.
-
-Usage
-Home Page: View an introduction and access the to-do list page.
-To-Do List Page: Add new tasks, view existing tasks, and delete tasks.
-Contributing
-If you'd like to contribute to this project, please follow these steps:
-
-Fork the repository
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/YourFeatureName
-Make your changes
-Commit your changes:
-bash
-Copy code
-git commit -m "Add feature: YourFeatureName"
-Push to the branch:
-bash
-Copy code
-git push origin feature/YourFeatureName
-Open a Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-React Documentation: For providing a solid framework to build the application.
-Open Source Resources: Various open-source libraries and resources that assisted in development.
-
-
